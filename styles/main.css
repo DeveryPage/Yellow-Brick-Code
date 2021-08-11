@@ -1,0 +1,52 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+body {
+    background-color: goldenrod;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+ nav li {
+    display: inline;
+  }
+  
+  .main_friends {
+      background-color: lightgoldenrodyellow;
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+  }
+  .friend {
+      max-width: 200px;
+      height: 200px;
+      overflow: hidden;
+      background-color: white;
+  }
+  .friend img {
+      width: 100%;
+      height: auto;
+  }
+  main {
+      display: flex;
+  }
+
+  .main_content {
+      flex: 3;
+  }
+
+    aside {
+    flex: 1;
+}
+    .main_content img {
+        width: 100%;S
+    }
+
+footer {
+    background-color: red;
+    color: aqua;
+}
